@@ -1,0 +1,9 @@
+<div>
+    <form (ngSubmit)="update()">
+        <h2>Atualizar um item</h2>
+        <label for="name">Nome</label>
+        <input type="text" id="name" [(ngModel)]="item.name" name="name" required>
+        <button type="submit">Atualizar</button>
+    </form>
+</div>
+

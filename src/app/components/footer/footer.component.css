@@ -1,0 +1,12 @@
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: #A020F0;
+    color: #ffffff;
+}
+
+p{
+    font-size: 1.6em;
+    text-align: center;
+}

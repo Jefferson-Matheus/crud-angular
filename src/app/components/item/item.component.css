@@ -1,0 +1,33 @@
+.conteiner{
+    display: flex;
+    width: 85vw;
+    height: 10vh;
+    border: 1px solid #0c4d9e;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1em;
+    font-size: 2em;
+}
+
+button{
+    margin-left: 0.5em;
+    padding: 0.3em;
+    font-size: 0.8em;
+    border-radius: 100px;
+    border: 0;
+}
+
+#deleteButton{
+    background-color: red;
+}
+
+#updateButton{
+    background-color: green;
+}
+
+@media(min-width: 320px) and  (max-width: 480px){
+    .conteiner{
+        font-size: 1em;
+    }
+}

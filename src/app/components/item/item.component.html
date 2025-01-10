@@ -1,0 +1,11 @@
+<div>
+    <app-form (itemCreated)="onItemCreated($event)"></app-form>
+    <div *ngFor="let item of items" class="conteiner">
+        {{item.name}}
+        <div class="buttons">
+            <button (click)="delete(item.id)" id="deleteButton">Excluir</button>
+            <button routerLink="update/{{item.id}}"  id="updateButton">Atualizar</button>
+        </div>
+    </div>
+</div>
+

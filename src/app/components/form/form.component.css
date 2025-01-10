@@ -1,0 +1,57 @@
+div{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 40vh;
+    background-color: #f5f5f5;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 10%;
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+label{
+    text-align: center;
+}
+
+input{
+    height: 5vh;
+    width: 20vw;
+    font-size: 1em;
+}
+
+button{
+    width: 5vw;
+    align-self: center;
+    padding: 0.5em;
+    font-size: 1em;
+    background-color: lightskyblue;
+    border-radius: 100px;
+    border: 0;
+    font-weight: bold;
+}
+
+@media(min-width: 320px) and (max-width:480px){
+    div{
+        width: 90vw;
+    }
+
+    input{
+        width: 85vw;
+    }
+
+    button{
+        width: 50vw;
+    }
+}

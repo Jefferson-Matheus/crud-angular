@@ -1,0 +1,9 @@
+<div>
+    <form (ngSubmit)="create()">
+        <h2>Cadastrar um item</h2>
+        <label for="name">Nome</label>
+        <input type="text" id="name" [(ngModel)]="item.name" name="name" required>
+        <button type="submit">Criar</button>
+    </form>
+</div>
+
