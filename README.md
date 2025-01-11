@@ -12,6 +12,8 @@ Aplicação crud feita em angular 17 e json-server como back-end, para gerenciam
 
 
 <h2>Instalação</h2>
+```bash
+```
 
 
 
